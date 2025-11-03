@@ -483,9 +483,9 @@ def merge_regions(regions_list: List[Dict[str, Any]], merge_config_file: str,
 
 if __name__ == "__main__":
     # 配置路径
-    texture_fp = r"D:\myProject\NAN\demoData\Tile_+028_+014_L22_0005000.jpg"
-    px_boundry_fp = r"D:\myProject\NAN\demoData\pixel_boundry.json"
-    merge_config_fp = r"D:\myProject\NAN\demoData\merge_config_auto.json"
+    texture_fp = r"D:\myProject\NAN\data\Tile_+028_+014_L22_0005000.jpg"
+    px_boundry_fp = r"D:\myProject\NAN\output\pixel_boundry.json"
+    merge_config_fp = r"D:\myProject\NAN\output\merge_config_auto.json"
     
     # 提取所有区域
     print("\n" + "=" * 50)
