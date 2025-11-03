@@ -2,9 +2,7 @@
 
 基于 OCR 的文本区域识别、提取和智能拼接工具，支持基于 3D 几何信息的自动拼接配置生成。
 
-
-
-
+![demo](public/demo.png)
 
 ## 功能特性
 
@@ -18,7 +16,7 @@
 ## 项目结构
 
 ```
-NAN/
+Text-Extraction-Tool/
 ├── extractor.py              # 文本区域提取工具
 ├── merger.py                 # 区域拼接工具
 ├── auto_merge_config.py      # 自动生成拼接配置工具
